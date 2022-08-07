@@ -29,7 +29,7 @@
             "./tts-local",
             "$(MODULES)/network/http/*"
         ],
-        "speeches": "./assets/sounds/speeches_ja"
+        "speeches": "./assets/sounds/speeches"
     },
     "preload": [
         "http",
