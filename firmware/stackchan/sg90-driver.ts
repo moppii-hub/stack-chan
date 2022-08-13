@@ -69,7 +69,7 @@ export class PWMServoDriver {
       const p = startPan + diffPan * ratio
       const t = startTilt + diffTilt * ratio
       const writingPan = Math.max(Math.min(p + 90, 170), 10) + offsetPan
-      const writingTilt = Math.max(Math.min(t + 90, 100), 65) + offsetTilt
+      const writingTilt = Math.max(Math.min(t + 90, 90), 75) + offsetTilt
       this._pan.write(writingPan)
       this._tilt.write(writingTilt)
       this._panRef.current = p
